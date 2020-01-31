@@ -121,9 +121,9 @@ class Lim
             }
         } else {
             if($v1ls == Constants::SIGN_NEGATIVE)
-                $str .=  'x > N';
+                $str .=  'x < N';
             else
-                $str .= 'x < N';
+                $str .= 'x > N';
         }
 
         $str .= '\\text{ akkor }';
